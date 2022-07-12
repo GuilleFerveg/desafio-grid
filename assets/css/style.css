@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+   background-color: rgb(53, 113, 252); 
+   width: 100%;
+   height: 50px;
+   text-align: center;
+   color: white;
+}
+
+nav h3{
+    padding-top: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    background-color: rgb(215, 248, 250);
+}
+
+.menu{
+    background-color:   rgb(215, 248, 250);
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.menu h4{
+    padding-bottom: 10px;
+}
+
+.menu p{
+    padding-top: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    height: 25px;
+    border: 0ch;
+    background-color:  rgb(53, 113, 252); 
+    color: white;
+}
+
+.articulo{
+    height: 80%;
+}
+
+.articulo img{
+    width: 100%;
+}
+
+.articulo h4{
+    background-color: white;
+}
+
+.articulo p{
+    background-color: white;
+}
+
+footer{
+    background-color:  rgb(53, 113, 252); 
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    padding-top: 10px;
+}
